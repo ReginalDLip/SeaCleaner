@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5f374f267cc7434fae642471046ba99, type: 3}
+  m_Name: Botol Beer
+  m_EditorClassIdentifier: 
+  namaSampah: Botol beer
+  gambarSampah: {fileID: 6626322052498450999, guid: 78b99abcef1536f4b9ad5c508675f8fa, type: 3}
+  kategori: Anorganik (Kaca)
+  deskripsiInfografis: 'Berbahan beling , berbahaya jika dibuang dalam keadaan pecah
+    dan bisa tersapu ke pantai atau dimakan ikan
+
+'

@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: f2dd16e1c94b7ed40967fc9126719615
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1195785406522680121
+    second: 8-bit-pixel-art-medieval-paper-scroll-parchment-vector-removebg-preview_0
+  - first:
+      213: 3250732360793171063
+    second: 8-bit-pixel-art-medieval-paper-scroll-parchment-vector-removebg-preview_1
+  - first:
+      213: -6473957005370926712
+    second: 8-bit-pixel-art-medieval-paper-scroll-parchment-vector-removebg-preview_2
+  - first:
+      213: 9039690741896017364
+    second: 8-bit-pixel-art-medieval-paper-scroll-parchment-vector-removebg-preview_3
+  - first:
+      213: -6241565780258246539
+    second: 8-bit-pixel-art-medieval-paper-scroll-parchment-vector-removebg-preview_4
+  - first:
+      213: -8090457379963437213
+    second: 8-bit-pixel-art-medieval-paper-scroll-parchment-vector-removebg-preview_5
+  - first:
+      213: 7782827210747499349
+    second: 8-bit-pixel-art-medieval-paper-scroll-parchment-vector-removebg-preview_6
+  - first:
+      213: 5242310818828491333
+    second: 8-bit-pixel-art-medieval-paper-scroll-parchment-vector-removebg-preview_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 8-bit-pixel-art-medieval-paper-scroll-parchment-vector-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 240
+        width: 226
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933616fdd78489010800000000000000
+      internalID: 1195785406522680121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bit-pixel-art-medieval-paper-scroll-parchment-vector-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 152
+        width: 88
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774a1f8ebdbec1d20800000000000000
+      internalID: 3250732360793171063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bit-pixel-art-medieval-paper-scroll-parchment-vector-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 152
+        width: 117
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889d6b37762e726a0800000000000000
+      internalID: -6473957005370926712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bit-pixel-art-medieval-paper-scroll-parchment-vector-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 152
+        width: 146
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5791ed5de637d70800000000000000
+      internalID: 9039690741896017364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bit-pixel-art-medieval-paper-scroll-parchment-vector-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 152
+        width: 224
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5703979fdf08169a0800000000000000
+      internalID: -6241565780258246539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bit-pixel-art-medieval-paper-scroll-parchment-vector-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 20
+        width: 309
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f77d4c0ebe8bf80800000000000000
+      internalID: -8090457379963437213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bit-pixel-art-medieval-paper-scroll-parchment-vector-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 20
+        width: 194
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55359dcec18220c60800000000000000
+      internalID: 7782827210747499349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8-bit-pixel-art-medieval-paper-scroll-parchment-vector-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 20
+        width: 82
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a957e2aed60c840800000000000000
+      internalID: 5242310818828491333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      8-bit-pixel-art-medieval-paper-scroll-parchment-vector-removebg-preview_0: 1195785406522680121
+      8-bit-pixel-art-medieval-paper-scroll-parchment-vector-removebg-preview_1: 3250732360793171063
+      8-bit-pixel-art-medieval-paper-scroll-parchment-vector-removebg-preview_2: -6473957005370926712
+      8-bit-pixel-art-medieval-paper-scroll-parchment-vector-removebg-preview_3: 9039690741896017364
+      8-bit-pixel-art-medieval-paper-scroll-parchment-vector-removebg-preview_4: -6241565780258246539
+      8-bit-pixel-art-medieval-paper-scroll-parchment-vector-removebg-preview_5: -8090457379963437213
+      8-bit-pixel-art-medieval-paper-scroll-parchment-vector-removebg-preview_6: 7782827210747499349
+      8-bit-pixel-art-medieval-paper-scroll-parchment-vector-removebg-preview_7: 5242310818828491333
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

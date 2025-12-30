@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5f374f267cc7434fae642471046ba99, type: 3}
+  m_Name: Botol Deterjen
+  m_EditorClassIdentifier: 
+  namaSampah: Botol Deterjen
+  gambarSampah: {fileID: -155936415800759596, guid: 78b99abcef1536f4b9ad5c508675f8fa, type: 3}
+  kategori: B3 (Bahan Berbahaya & Beracun)
+  deskripsiInfografis: 'Terbuat dari plastik keras yang butuh 500+ tahun terurai.
+    Sisa cairan kimianya dapat meracuni terumbu karang di sekitarnya dan mematikan
+    plankton. Bahaya: Sangat Tinggi (Racun Kimia)'
