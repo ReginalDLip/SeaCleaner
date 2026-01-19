@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro; 
 using System.Collections;
+using UnityEngine.SceneManagement; // Tambahkan ini untuk load scene
 
 public class InfographicManager : MonoBehaviour
 {
@@ -9,12 +10,14 @@ public class InfographicManager : MonoBehaviour
 
     [Header("UI References")]
     public GameObject panelInfografis;
+    public GameObject panelMenang; // TAMBAHAN: Masukkan Panel Win disini
     public CanvasGroup contentCanvasGroup;
     
     [Header("Sistem Skor")]
     public TextMeshProUGUI txtScore; 
     private int jumlahSampah = 0;
-    private int targetSampah = 7;
+    public int targetSampah = 7; // Ubah ke public biar bisa diatur di Inspector
+    
     [Header("Data Fields")]
     public TextMeshProUGUI txtNama;
     public Image imgIcon;
@@ -31,11 +34,11 @@ public class InfographicManager : MonoBehaviour
         else Destroy(gameObject);
 
         panelInfografis.SetActive(false);
+        if(panelMenang != null) panelMenang.SetActive(false); 
     }
 
     void Start()
     {
-        //  BARU: Set teks awal saat game mula
         UpdateTeksSkor();
     }
 
@@ -52,21 +55,12 @@ public class InfographicManager : MonoBehaviour
         panelInfografis.SetActive(true);
         StartCoroutine(AnimatePopUp());
     }
+
     public void TambahSkor()
     {
         jumlahSampah++;
-        
-    
         if (jumlahSampah > targetSampah) jumlahSampah = targetSampah;
-
         UpdateTeksSkor();
-
-        
-        if (jumlahSampah >= targetSampah)
-        {
-            Debug.Log("SELAMAT! Misi Selesai.");
-            // Nanti bisa tambah logika menang/game over disini
-        }
     }
 
     void UpdateTeksSkor()
@@ -76,12 +70,40 @@ public class InfographicManager : MonoBehaviour
             txtScore.text = jumlahSampah + "/" + targetSampah;
         }
     }
- 
-
     public void TutupInfografis()
     {
-        Time.timeScale = 1;
         panelInfografis.SetActive(false);
+        if (jumlahSampah >= targetSampah)
+        {
+            MunculkanKemenangan();
+        }
+        else
+        {
+            Time.timeScale = 1;
+        }
+    }
+
+    void MunculkanKemenangan()
+    {
+        if(panelMenang != null)
+        {
+            panelMenang.SetActive(true);
+        }
+        else
+        {
+            Debug.LogError("Panel Menang belum dimasukkan di Inspector!");
+        }
+    }
+    public void KeMainMenu()
+    {
+        Time.timeScale = 1; 
+        SceneManager.LoadScene("MainMenu"); 
+    }
+
+    public void RestartLevel()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     IEnumerator AnimatePopUp()
